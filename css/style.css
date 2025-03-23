@@ -106,3 +106,19 @@ a {
 .image-container:hover {
     background-image: url("https://media.tenor.com/J-5Dn6dNFsIAAAAM/dota2.gif");
 }
+
+.image-container2 {
+    width: 500px;
+    height: 250px;
+    background-image: url("https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/570/header.jpg?t=1739210483");
+    background-size: cover;
+    transition: background 0.3s ease;
+    margin: 0 auto; /* Авто-отступы слева и справа */
+    background-color: lightgray; /* Для наглядности */
+    padding: 20px;
+}
+
+.image-container2:hover {
+    background-image: url("https://cs.pikabu.ru/post_img/2013/04/16/2/1366067514_444412209.gif");
+}
+
